@@ -10,6 +10,7 @@ Homepage of Luca Spolaor (UC San Diego), published with GitHub Pages at https://
 | map.html | Placeholder for the interactive research map |
 | style.css | Styles shared by all pages |
 | figures.js | Draws the small figure shown in each paper summary |
+| figures-extra.js | Draws the figures of papers added later (the keys in its FIG table) |
 | portrait.jpg | Photo on the About page |
 
 To add a paper, copy one &lt;li&gt; block in research.html; the newest paper goes at the top and the numbering updates itself.
