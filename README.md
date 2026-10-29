@@ -12,6 +12,6 @@ Homepage of Luca Spolaor (UC San Diego), published with GitHub Pages at https://
 | figures.js | Draws the small figure shown in each paper summary |
 | portrait.jpg | Photo on the About page |
 
-To add a paper, copy one <li> block in research.html; the newest paper goes at the top and the numbering updates itself.
+To add a paper, copy one &lt;li&gt; block in research.html; the newest paper goes at the top and the numbering updates itself.
 
-To use your own picture for a paper, replace the empty <div class="pf-art"></div> in that paper's <figure> with <img src="your-file.png" alt="..."> and delete the figure's data-fig attribute.
+To use your own picture for a paper, replace the empty &lt;div class="pf-art"&gt;&lt;/div&gt; in that paper's &lt;figure&gt; with &lt;img src="your-file.png" alt="..."&gt; and delete the figure's data-fig attribute.
