@@ -76,6 +76,10 @@ p { margin: 0 0 14px; }
 .lede { font-size: 19px; line-height: 1.65; }
 .map-note { margin: 22px 0 0; padding: 14px 18px; background: var(--tint); border: 1px solid var(--rule); border-radius: 4px; }
 .map-note a { font-weight: 600; }
+.notes-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 22px 0 0; }
+.notes-row .map-note { margin: 0; }
+.map-note p { margin: 0; }
+.map-note .note-title { font-weight: 600; margin-bottom: 4px; }
 .list-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 16px; margin: 44px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
 .list-head h2 { margin: 0; padding: 0; border: 0; }
 .list-head .count { color: var(--faint); font-size: 15.5px; }
@@ -119,10 +123,11 @@ footer .wrap { padding-block: 18px 28px; }
   .portrait { width: 160px; }
   .pub-body { grid-template-columns: minmax(0, 1fr); }
   .pubs { padding-left: 2.1em; }
+  .notes-row { grid-template-columns: minmax(0, 1fr); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media print {
-  .top nav, .toggle-all, .map-note { display: none; }
+  .top nav, .toggle-all, .notes-row, .map-note { display: none; }
   details.pub-more > summary { display: none; }
 }
 sup, sub { font-size: 0.72em; line-height: 0; }
